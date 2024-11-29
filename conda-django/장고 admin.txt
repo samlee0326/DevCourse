@@ -1,0 +1,3 @@
+django Admin
+ID:user
+PW:Admin123!
