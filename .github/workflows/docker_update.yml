@@ -25,5 +25,5 @@ jobs:
             git pull origin $(git rev-parse --abbrev-ref HEAD)
 
             echo "Restarting Airflow containers..."
-            docker-compose down
-            docker-compose up -d
+            docker compose down
+            docker compose up -d
