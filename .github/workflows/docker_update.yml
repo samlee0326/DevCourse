@@ -21,9 +21,9 @@ jobs:
           script: |
             cd /home/ubuntu/DevCourse/Final_Project/pipeline
 
-            echo "▶️ Pulling latest changes..."
+            echo "Pulling latest changes..."
             git pull origin $(git rev-parse --abbrev-ref HEAD)
 
-            echo "🔄 Restarting Airflow containers..."
+            echo "Restarting Airflow containers..."
             docker-compose down
             docker-compose up -d
