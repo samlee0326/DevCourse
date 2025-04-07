@@ -1,0 +1,255 @@
+[2025-04-07T08:52:51.679+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:52:51.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:52:51.689+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:52:51.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:52:54.338+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:52:54.331+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:52:54.343+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:52:54.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 2.709 seconds
+[2025-04-07T08:53:25.161+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:25.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:53:25.162+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:53:25.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:25.698+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:53:25.697+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:53:25.699+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:25.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.553 seconds
+[2025-04-07T08:53:56.445+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:56.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:53:56.447+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:53:56.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:56.986+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:53:56.985+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:53:56.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:53:56.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.558 seconds
+[2025-04-07T08:54:27.714+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:27.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:54:27.716+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:54:27.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:28.271+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:54:28.269+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:54:28.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:28.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.575 seconds
+[2025-04-07T08:54:58.939+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:58.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:54:58.941+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:54:58.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:59.468+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:54:59.467+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:54:59.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:54:59.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.546 seconds
+[2025-04-07T08:55:30.178+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:55:30.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:55:30.179+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:55:30.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:55:30.712+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:55:30.710+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:55:30.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:55:30.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.550 seconds
+[2025-04-07T08:56:01.356+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:01.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:56:01.360+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:56:01.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:02.798+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:56:02.796+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:56:02.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:02.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 1.469 seconds
+[2025-04-07T08:56:33.689+0000] {processor.py:161} INFO - Started process (PID=449) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:33.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:56:33.691+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:56:33.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:34.221+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:56:34.220+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:56:34.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:56:34.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.548 seconds
+[2025-04-07T08:57:04.833+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:04.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:57:04.835+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:57:04.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:05.374+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:57:05.371+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:57:05.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:05.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.559 seconds
+[2025-04-07T08:57:36.315+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:36.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:57:36.317+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:57:36.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:36.858+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:57:36.856+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:57:36.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:57:36.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.560 seconds
+[2025-04-07T08:58:07.561+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:07.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:58:07.564+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:58:07.562+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:08.105+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:58:08.104+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:58:08.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:08.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.560 seconds
+[2025-04-07T08:58:38.795+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:38.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:58:38.798+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:58:38.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:39.328+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:58:39.327+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:58:39.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:58:39.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.549 seconds
+[2025-04-07T08:59:10.087+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:10.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:59:10.088+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:59:10.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:10.663+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:59:10.661+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:59:10.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:10.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.592 seconds
+[2025-04-07T08:59:41.334+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:41.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T08:59:41.336+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:59:41.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:41.864+0000] {logging_mixin.py:188} INFO - [2025-04-07T08:59:41.862+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T08:59:41.865+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T08:59:41.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.546 seconds
+[2025-04-07T09:00:12.527+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T09:00:12.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/collect_match_info_dag.py for tasks to queue
+[2025-04-07T09:00:12.529+0000] {logging_mixin.py:188} INFO - [2025-04-07T09:00:12.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T09:00:13.293+0000] {logging_mixin.py:188} INFO - [2025-04-07T09:00:13.290+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/collect_match_info_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/collect_match_info_dag.py", line 37, in <module>
+    API_KEYS = Variable.get('api_4_account_key_mix_1', deserialize_json=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable api_4_account_key_mix_1 does not exist'
+[2025-04-07T09:00:13.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/collect_match_info_dag.py
+[2025-04-07T09:00:13.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/collect_match_info_dag.py took 0.787 seconds
