@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ town }} 상위 카테고리 및 키워드</title>
+    <style>
+        #abs{ font-size: 18px; }
+        #rel{ font-size: 120%; }
+        #rel2{ font-size: 140%; } 
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- Top Category -->
+    {% if top_category %}
+        <h1>
+            <span id="rel2">{{ town }}</span>
+            <span id ='abs'>구매자의 인기있는 카테고리는 ....</span>
+            <br>
+        </h1>
+        <h2 style="text-align: center;">
+            <span id="rel2">{{ top_category }}</span> 
+            <span id ='abs'>입니다</span>
+            <br>
+            <br>
+        </h2>
+    {% else %}
+        <h1>
+            <span id="rel2">{{ town }}</span>
+            <span id ='abs'>구매자의 인기있는 카테고리는 ....</span>
+            <strong>정보를 가지고 올 수가 없습니다.. ㅠㅠ</strong>
+            
+        
+        </h1>
+    {% endif %}
+
+    <!-- Keywords Table -->
+    <!-- <h2 style="text-align: center;">상위 키워드</h2> -->
+    <table>
+        <thead>
+            <tr>
+                <th style="text-align: center;">상위 키워드</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for keyword in top_keywords %}
+                <tr>
+                    <td style="text-align: center;">{{ keyword }}</td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="2">Keywords not available for this category.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

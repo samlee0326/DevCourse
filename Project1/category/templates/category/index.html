@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지역별 카테고리 및 키워드 조회 (고객 & 판매자)</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .button {
+            font-size: 18px;
+            padding: 15px 30px;
+            width: 250px;
+            height: 50px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>지역별 카테고리 분석 서비스를 선택하세요</h1>
+
+    <div style="margin: 20px 0;">
+        <img src="\static\images\당근마켓_로고.png" alt="서비스 선택 이미지" style="width: 200px; height: auto;">
+    </div>
+
+    <div>
+        <!-- 구매자 데이터 버튼 -->
+        <a href="{% url 'region_select' 'consumer' %}">
+            <button class="button">구매자 데이터</button>
+        </a>
+
+        <!-- 판매자 데이터 버튼 -->
+        <a href="{% url 'region_select' 'seller' %}">
+            <button class="button">판매자 데이터</button>
+        </a>
+    </div>
+</body>   
+</html>

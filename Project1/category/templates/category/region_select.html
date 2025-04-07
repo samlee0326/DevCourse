@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지역별 카테고리 및 키워드 조회</title>
+    <style>
+        #abs{ font-size: 18px; }
+        #rel{ font-size: 140%; } 
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        {% if regions %}
+        <h1>
+            <span id="rel2">강남구 각 지역의 인기 카테고리를 확인해 보세요</span>
+            <br><br>
+        </h1>
+        {% else %}
+        <h1>
+            <span id="rel2">해당 페이지를 찾을 수 없습니다... ㅠㅠ</span>
+            <br>
+        </h1>
+        {% endif %}
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align: center;">강남구 지역</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for region in regions %}
+                <tr>
+                    <td style="text-align: center;">
+                        <a href="{% url 'region_detail_view' user_type region.town %}" style="text-align: center;">{{ region.town }}</a> 
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    </body>
