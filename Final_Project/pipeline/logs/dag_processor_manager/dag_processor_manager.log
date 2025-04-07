@@ -181,3 +181,620 @@ File Path                                            PID  Runtime      # DAGs   
 /opt/airflow/dags/match_info_redshift_dag.py         596  0.01s             1           0  0.12s           2025-04-07T08:59:25
 /opt/airflow/dags/match_info_spark_process_dag.py    593  0.02s             1           0  0.12s           2025-04-07T08:59:25
 ================================================================================
+[2025-04-07T15:05:58.110+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-04-07T15:05:58.113+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-04-07T15:05:58.113+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-07T15:05:58.116+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:05:58.125+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:05:59.362+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/match_info_spark_process_dag.py                            1           0  0.92s           2025-04-07T15:05:59
+/opt/airflow/dags/collect_match_info_dag.py        122921  0.02s             0           0
+/opt/airflow/dags/match_info_redshift_dag.py       122918  0.08s             0           0
+================================================================================
+[2025-04-07T15:06:29.655+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  1.44s           2025-04-07T15:06:00
+/opt/airflow/dags/match_info_spark_process_dag.py  122935  0.03s             1           0  0.92s           2025-04-07T15:05:59
+/opt/airflow/dags/match_info_redshift_dag.py       122938  0.02s             1           0  0.17s           2025-04-07T15:05:59
+================================================================================
+[2025-04-07T15:07:00.242+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  1.06s           2025-04-07T15:06:32
+/opt/airflow/dags/match_info_redshift_dag.py       122960  0.03s             1           0  0.32s           2025-04-07T15:06:29
+/opt/airflow/dags/match_info_spark_process_dag.py  122957  0.05s             1           0  0.30s           2025-04-07T15:06:29
+================================================================================
+[2025-04-07T15:07:14.442+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-04-07T15:07:14.445+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-04-07T15:07:14.446+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-07T15:07:14.446+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:07:14.459+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:07:16.464+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/match_info_spark_process_dag.py                           1           0  1.50s           2025-04-07T15:07:16
+/opt/airflow/dags/collect_match_info_dag.py          223  0.01s             0           0
+/opt/airflow/dags/match_info_redshift_dag.py         220  0.06s             0           0
+================================================================================
+[2025-04-07T15:07:30.550+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  0.78s           2025-04-07T15:07:03
+/opt/airflow/dags/match_info_spark_process_dag.py                           1           0  0.49s           2025-04-07T15:07:00
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.39s           2025-04-07T15:07:00
+================================================================================
+[2025-04-07T15:07:46.613+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  2.24s           2025-04-07T15:07:18
+/opt/airflow/dags/match_info_spark_process_dag.py    237  0.01s             1           0  1.50s           2025-04-07T15:07:16
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.30s           2025-04-07T15:07:16
+================================================================================
+[2025-04-07T15:08:00.644+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  1.45s           2025-04-07T15:07:35
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.27s           2025-04-07T15:07:31
+/opt/airflow/dags/match_info_spark_process_dag.py                           1           0  0.26s           2025-04-07T15:07:31
+================================================================================
+[2025-04-07T15:08:16.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  0.89s           2025-04-07T15:07:49
+/opt/airflow/dags/match_info_spark_process_dag.py    259  0.01s             1           0  0.13s           2025-04-07T15:07:46
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.11s           2025-04-07T15:07:46
+================================================================================
+[2025-04-07T15:08:23.223+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-07T15:08:31.471+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  1.10s           2025-04-07T15:08:07
+/opt/airflow/dags/match_info_spark_process_dag.py  123023  0.02s             1           0  0.15s           2025-04-07T15:08:01
+/opt/airflow/dags/match_info_redshift_dag.py       123026  0.01s             1           0  0.15s           2025-04-07T15:08:01
+================================================================================
+[2025-04-07T15:09:01.780+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:08:38
+/opt/airflow/dags/match_info_spark_process_dag.py  123045  0.04s             1           0  0.15s           2025-04-07T15:08:31
+/opt/airflow/dags/match_info_redshift_dag.py       123048  0.02s             1           0  0.14s           2025-04-07T15:08:31
+================================================================================
+[2025-04-07T15:09:32.102+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:09:09
+/opt/airflow/dags/match_info_redshift_dag.py       123070  0.01s             1           0  0.21s           2025-04-07T15:09:01
+/opt/airflow/dags/match_info_spark_process_dag.py  123067  0.01s             1           0  0.19s           2025-04-07T15:09:01
+================================================================================
+[2025-04-07T15:10:02.380+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.42s           2025-04-07T15:09:40
+/opt/airflow/dags/match_info_redshift_dag.py       123092  0.02s             1           0  0.11s           2025-04-07T15:09:32
+/opt/airflow/dags/match_info_spark_process_dag.py  123089  0.04s             1           0  0.11s           2025-04-07T15:09:32
+================================================================================
+[2025-04-07T15:10:32.720+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:10:11
+/opt/airflow/dags/match_info_spark_process_dag.py  123112  0.01s             1           0  0.26s           2025-04-07T15:10:02
+/opt/airflow/dags/match_info_redshift_dag.py       123115  0.01s             1           0  0.25s           2025-04-07T15:10:02
+================================================================================
+[2025-04-07T15:10:58.319+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:10:58.322+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:11:02.970+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:10:42
+/opt/airflow/dags/match_info_spark_process_dag.py  123134  0.02s             1           0  0.11s           2025-04-07T15:10:32
+/opt/airflow/dags/match_info_redshift_dag.py       123137  0.01s             1           0  0.10s           2025-04-07T15:10:32
+================================================================================
+[2025-04-07T15:11:33.288+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.42s           2025-04-07T15:11:13
+/opt/airflow/dags/match_info_spark_process_dag.py  123156  0.04s             1           0  0.16s           2025-04-07T15:11:03
+/opt/airflow/dags/match_info_redshift_dag.py       123159  0.02s             1           0  0.16s           2025-04-07T15:11:03
+================================================================================
+[2025-04-07T15:12:03.646+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:11:44
+/opt/airflow/dags/match_info_redshift_dag.py       123181  0.02s             1           0  0.21s           2025-04-07T15:11:33
+/opt/airflow/dags/match_info_spark_process_dag.py  123178  0.03s             1           0  0.20s           2025-04-07T15:11:33
+================================================================================
+[2025-04-07T15:12:34.082+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:12:15
+/opt/airflow/dags/match_info_spark_process_dag.py  123200  0.03s             1           0  0.30s           2025-04-07T15:12:03
+/opt/airflow/dags/match_info_redshift_dag.py       123203  0.02s             1           0  0.27s           2025-04-07T15:12:03
+================================================================================
+[2025-04-07T15:13:04.368+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:12:46
+/opt/airflow/dags/match_info_redshift_dag.py       123226  0.01s             1           0  0.17s           2025-04-07T15:12:34
+/opt/airflow/dags/match_info_spark_process_dag.py  123223  0.02s             1           0  0.15s           2025-04-07T15:12:34
+================================================================================
+[2025-04-07T15:13:34.659+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.42s           2025-04-07T15:13:17
+/opt/airflow/dags/match_info_spark_process_dag.py  123245  0.02s             1           0  0.16s           2025-04-07T15:13:04
+/opt/airflow/dags/match_info_redshift_dag.py       123248  0.01s             1           0  0.15s           2025-04-07T15:13:04
+================================================================================
+[2025-04-07T15:14:04.965+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.38s           2025-04-07T15:13:48
+/opt/airflow/dags/match_info_spark_process_dag.py  123267  0.01s             1           0  0.18s           2025-04-07T15:13:34
+/opt/airflow/dags/match_info_redshift_dag.py       123270  0.01s             1           0  0.16s           2025-04-07T15:13:34
+================================================================================
+[2025-04-07T15:14:35.234+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.64s           2025-04-07T15:14:19
+/opt/airflow/dags/match_info_redshift_dag.py       123292  0.01s             1           0  0.13s           2025-04-07T15:14:05
+/opt/airflow/dags/match_info_spark_process_dag.py  123289  0.01s             1           0  0.12s           2025-04-07T15:14:05
+================================================================================
+[2025-04-07T15:15:05.477+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:14:50
+/opt/airflow/dags/match_info_spark_process_dag.py  123311  0.02s             1           0  0.11s           2025-04-07T15:14:35
+/opt/airflow/dags/match_info_redshift_dag.py       123314  0.01s             1           0  0.11s           2025-04-07T15:14:35
+================================================================================
+[2025-04-07T15:15:35.736+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:15:22
+/opt/airflow/dags/match_info_spark_process_dag.py  123333  0.01s             1           0  0.13s           2025-04-07T15:15:05
+/opt/airflow/dags/match_info_redshift_dag.py       123336  0.01s             1           0  0.12s           2025-04-07T15:15:05
+================================================================================
+[2025-04-07T15:15:58.380+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:15:58.383+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:16:06.061+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:15:53
+/opt/airflow/dags/match_info_spark_process_dag.py  123355  0.02s             1           0  0.16s           2025-04-07T15:15:35
+/opt/airflow/dags/match_info_redshift_dag.py       123358  0.01s             1           0  0.16s           2025-04-07T15:15:35
+================================================================================
+[2025-04-07T15:16:36.363+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:16:24
+/opt/airflow/dags/match_info_spark_process_dag.py  123377  0.02s             1           0  0.16s           2025-04-07T15:16:06
+/opt/airflow/dags/match_info_redshift_dag.py       123380  0.01s             1           0  0.16s           2025-04-07T15:16:06
+================================================================================
+[2025-04-07T15:17:06.636+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:16:55
+/opt/airflow/dags/match_info_spark_process_dag.py  123399  0.03s             1           0  0.15s           2025-04-07T15:16:36
+/opt/airflow/dags/match_info_redshift_dag.py       123402  0.02s             1           0  0.14s           2025-04-07T15:16:36
+================================================================================
+[2025-04-07T15:17:37.049+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.42s           2025-04-07T15:17:26
+/opt/airflow/dags/match_info_redshift_dag.py       123424  0.01s             1           0  0.28s           2025-04-07T15:17:06
+/opt/airflow/dags/match_info_spark_process_dag.py  123421  0.01s             1           0  0.28s           2025-04-07T15:17:06
+================================================================================
+[2025-04-07T15:18:07.308+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:17:57
+/opt/airflow/dags/match_info_redshift_dag.py       123447  0.01s             1           0  0.11s           2025-04-07T15:17:37
+/opt/airflow/dags/match_info_spark_process_dag.py  123444  0.02s             1           0  0.11s           2025-04-07T15:17:37
+================================================================================
+[2025-04-07T15:18:37.598+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:18:28
+/opt/airflow/dags/match_info_redshift_dag.py       123469  0.01s             1           0  0.15s           2025-04-07T15:18:07
+/opt/airflow/dags/match_info_spark_process_dag.py  123466  0.01s             1           0  0.14s           2025-04-07T15:18:07
+================================================================================
+[2025-04-07T15:19:07.835+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.48s           2025-04-07T15:19:00
+/opt/airflow/dags/match_info_redshift_dag.py       123491  0.01s             1           0  0.11s           2025-04-07T15:18:37
+/opt/airflow/dags/match_info_spark_process_dag.py  123488  0.01s             1           0  0.10s           2025-04-07T15:18:37
+================================================================================
+[2025-04-07T15:19:38.110+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.38s           2025-04-07T15:19:31
+/opt/airflow/dags/match_info_redshift_dag.py       123513  0.01s             1           0  0.14s           2025-04-07T15:19:07
+/opt/airflow/dags/match_info_spark_process_dag.py  123510  0.01s             1           0  0.14s           2025-04-07T15:19:07
+================================================================================
+[2025-04-07T15:20:08.366+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.52s           2025-04-07T15:20:02
+/opt/airflow/dags/match_info_spark_process_dag.py  123532  0.01s             1           0  0.10s           2025-04-07T15:19:38
+/opt/airflow/dags/match_info_redshift_dag.py       123535  0.01s             1           0  0.10s           2025-04-07T15:19:38
+================================================================================
+[2025-04-07T15:20:38.616+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:20:33
+/opt/airflow/dags/match_info_redshift_dag.py       123557  0.01s             1           0  0.11s           2025-04-07T15:20:08
+/opt/airflow/dags/match_info_spark_process_dag.py  123554  0.01s             1           0  0.11s           2025-04-07T15:20:08
+================================================================================
+[2025-04-07T15:20:58.798+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:20:58.800+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:21:08.890+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.44s           2025-04-07T15:21:05
+/opt/airflow/dags/match_info_redshift_dag.py       123579  0.01s             1           0  0.11s           2025-04-07T15:20:38
+/opt/airflow/dags/match_info_spark_process_dag.py  123576  0.02s             1           0  0.11s           2025-04-07T15:20:38
+================================================================================
+[2025-04-07T15:21:39.186+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.64s           2025-04-07T15:21:36
+/opt/airflow/dags/match_info_redshift_dag.py       123601  0.01s             1           0  0.14s           2025-04-07T15:21:09
+/opt/airflow/dags/match_info_spark_process_dag.py  123598  0.02s             1           0  0.14s           2025-04-07T15:21:09
+================================================================================
+[2025-04-07T15:22:09.510+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.65s           2025-04-07T15:22:08
+/opt/airflow/dags/match_info_redshift_dag.py       123623  0.01s             1           0  0.15s           2025-04-07T15:21:39
+/opt/airflow/dags/match_info_spark_process_dag.py  123620  0.03s             1           0  0.15s           2025-04-07T15:21:39
+================================================================================
+[2025-04-07T15:22:39.927+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:22:39
+/opt/airflow/dags/match_info_spark_process_dag.py  123641  0.01s             1           0  0.32s           2025-04-07T15:22:09
+/opt/airflow/dags/match_info_redshift_dag.py       123644  0.01s             1           0  0.31s           2025-04-07T15:22:09
+================================================================================
+[2025-04-07T15:23:10.192+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.44s           2025-04-07T15:23:09
+/opt/airflow/dags/match_info_redshift_dag.py       123666  0.01s             1           0  0.11s           2025-04-07T15:22:40
+/opt/airflow/dags/match_info_spark_process_dag.py  123663  0.01s             1           0  0.11s           2025-04-07T15:22:40
+================================================================================
+[2025-04-07T15:23:40.428+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.44s           2025-04-07T15:23:09
+/opt/airflow/dags/match_info_redshift_dag.py       123682  0.01s             1           0  0.10s           2025-04-07T15:23:10
+/opt/airflow/dags/match_info_spark_process_dag.py  123679  0.02s             1           0  0.10s           2025-04-07T15:23:10
+================================================================================
+[2025-04-07T15:24:10.705+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:23:40
+/opt/airflow/dags/match_info_redshift_dag.py       123704  0.01s             1           0  0.15s           2025-04-07T15:23:40
+/opt/airflow/dags/match_info_spark_process_dag.py  123701  0.02s             1           0  0.15s           2025-04-07T15:23:40
+================================================================================
+[2025-04-07T15:24:40.974+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:24:12
+/opt/airflow/dags/match_info_redshift_dag.py       123726  0.01s             1           0  0.14s           2025-04-07T15:24:10
+/opt/airflow/dags/match_info_spark_process_dag.py  123723  0.01s             1           0  0.14s           2025-04-07T15:24:10
+================================================================================
+[2025-04-07T15:25:11.221+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:24:43
+/opt/airflow/dags/match_info_spark_process_dag.py  123745  0.01s             1           0  0.12s           2025-04-07T15:24:41
+/opt/airflow/dags/match_info_redshift_dag.py       123748  0.01s             1           0  0.11s           2025-04-07T15:24:41
+================================================================================
+[2025-04-07T15:25:41.467+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:25:14
+/opt/airflow/dags/match_info_spark_process_dag.py  123767  0.01s             1           0  0.12s           2025-04-07T15:25:11
+/opt/airflow/dags/match_info_redshift_dag.py       123770  0.01s             1           0  0.11s           2025-04-07T15:25:11
+================================================================================
+[2025-04-07T15:25:59.070+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:25:59.072+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:26:11.792+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.42s           2025-04-07T15:25:46
+/opt/airflow/dags/match_info_spark_process_dag.py  123789  0.01s             1           0  0.13s           2025-04-07T15:25:41
+/opt/airflow/dags/match_info_redshift_dag.py       123792  0.01s             1           0  0.13s           2025-04-07T15:25:41
+================================================================================
+[2025-04-07T15:26:42.059+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.45s           2025-04-07T15:26:17
+/opt/airflow/dags/match_info_redshift_dag.py       123820  0.01s             1           0  0.12s           2025-04-07T15:26:11
+/opt/airflow/dags/match_info_spark_process_dag.py  123817  0.02s             1           0  0.12s           2025-04-07T15:26:11
+================================================================================
+[2025-04-07T15:27:12.370+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:26:48
+/opt/airflow/dags/match_info_redshift_dag.py       123842  0.02s             1           0  0.15s           2025-04-07T15:26:42
+/opt/airflow/dags/match_info_spark_process_dag.py  123839  0.03s             1           0  0.15s           2025-04-07T15:26:42
+================================================================================
+[2025-04-07T15:27:42.805+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:27:19
+/opt/airflow/dags/match_info_redshift_dag.py       123864  0.01s             1           0  0.31s           2025-04-07T15:27:12
+/opt/airflow/dags/match_info_spark_process_dag.py  123861  0.02s             1           0  0.28s           2025-04-07T15:27:12
+================================================================================
+[2025-04-07T15:28:13.111+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:27:50
+/opt/airflow/dags/match_info_redshift_dag.py       123886  0.01s             1           0  0.15s           2025-04-07T15:27:42
+/opt/airflow/dags/match_info_spark_process_dag.py  123883  0.02s             1           0  0.15s           2025-04-07T15:27:42
+================================================================================
+[2025-04-07T15:28:43.398+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:28:21
+/opt/airflow/dags/match_info_spark_process_dag.py  123905  0.01s             1           0  0.16s           2025-04-07T15:28:13
+/opt/airflow/dags/match_info_redshift_dag.py       123908  0.01s             1           0  0.16s           2025-04-07T15:28:13
+================================================================================
+[2025-04-07T15:29:13.693+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.61s           2025-04-07T15:28:53
+/opt/airflow/dags/match_info_redshift_dag.py       123930  0.01s             1           0  0.14s           2025-04-07T15:28:43
+/opt/airflow/dags/match_info_spark_process_dag.py  123927  0.02s             1           0  0.13s           2025-04-07T15:28:43
+================================================================================
+[2025-04-07T15:29:43.966+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:29:24
+/opt/airflow/dags/match_info_spark_process_dag.py  123949  0.01s             1           0  0.14s           2025-04-07T15:29:13
+/opt/airflow/dags/match_info_redshift_dag.py       123952  0.01s             1           0  0.14s           2025-04-07T15:29:13
+================================================================================
+[2025-04-07T15:30:14.252+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:29:55
+/opt/airflow/dags/match_info_spark_process_dag.py  123971  0.01s             1           0  0.13s           2025-04-07T15:29:44
+/opt/airflow/dags/match_info_redshift_dag.py       123974  0.01s             1           0  0.13s           2025-04-07T15:29:44
+================================================================================
+[2025-04-07T15:30:44.503+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.41s           2025-04-07T15:30:26
+/opt/airflow/dags/match_info_redshift_dag.py       123996  0.01s             1           0  0.11s           2025-04-07T15:30:14
+/opt/airflow/dags/match_info_spark_process_dag.py  123993  0.01s             1           0  0.11s           2025-04-07T15:30:14
+================================================================================
+[2025-04-07T15:30:59.072+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:30:59.074+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:31:14.778+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.39s           2025-04-07T15:30:58
+/opt/airflow/dags/match_info_redshift_dag.py       124018  0.01s             1           0  0.14s           2025-04-07T15:30:44
+/opt/airflow/dags/match_info_spark_process_dag.py  124015  0.01s             1           0  0.13s           2025-04-07T15:30:44
+================================================================================
+[2025-04-07T15:31:45.036+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  ------  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                  0           1  0.40s           2025-04-07T15:31:29
+/opt/airflow/dags/match_info_redshift_dag.py       124040  0.01s             1           0  0.11s           2025-04-07T15:31:14
+/opt/airflow/dags/match_info_spark_process_dag.py  124037  0.02s             1           0  0.11s           2025-04-07T15:31:14
+================================================================================
+[2025-04-07T15:34:39.740+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-04-07T15:34:39.742+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-04-07T15:34:39.743+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-07T15:34:39.745+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-04-07T15:34:39.753+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-07T15:34:44.255+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/match_info_spark_process_dag.py                           1           0  3.42s           2025-04-07T15:34:44
+/opt/airflow/dags/collect_match_info_dag.py          230  0.03s             0           0
+/opt/airflow/dags/match_info_redshift_dag.py         227  0.19s             0           0
+================================================================================
+[2025-04-07T15:35:14.415+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  5.15s           2025-04-07T15:34:49
+/opt/airflow/dags/match_info_spark_process_dag.py    244  0.01s             1           0  3.42s           2025-04-07T15:34:44
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  1.14s           2025-04-07T15:34:45
+================================================================================
+[2025-04-07T15:35:44.685+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  0.79s           2025-04-07T15:35:20
+/opt/airflow/dags/match_info_spark_process_dag.py    266  0.01s             1           0  0.15s           2025-04-07T15:35:14
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.11s           2025-04-07T15:35:15
+================================================================================
+[2025-04-07T15:36:14.826+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/collect_match_info_dag.py                                 0           1  0.87s           2025-04-07T15:35:51
+/opt/airflow/dags/match_info_redshift_dag.py                                1           0  0.11s           2025-04-07T15:35:45
+/opt/airflow/dags/match_info_spark_process_dag.py    288  0.01s             1           0  0.11s           2025-04-07T15:35:44
+================================================================================
+[2025-04-07T15:36:34.706+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
