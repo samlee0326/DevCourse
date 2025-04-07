@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '/home/ubuntu/DevCourse/Final_Project/pipeline/docker-compose.yaml'  # docker-compose.yaml 변경시 실행
+      - 'Final_Project/pipeline/docker-compose.yaml'  # docker-compose.yaml 변경시 실행
 
 jobs:
   deploy_airflow:
