@@ -1,0 +1,29 @@
+name: Deploy Airflow on docker-compose.yaml update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '/home/ubuntu/DevCourse/Final_Project/pipeline/docker-compose.yaml'  # docker-compose.yaml 변경시 실행
+
+jobs:
+  deploy_airflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH to EC2 and update docker-compose
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.AIRFLOW_EC2_HOST }}
+          username: ${{ secrets.AIRFLOW_EC2_USERNAME }}
+          key: ${{ secrets.EC2_PRIVATE_KEY }}
+          script: |
+            cd /home/ubuntu/DevCourse/Final_Project/pipeline
+
+            echo "▶️ Pulling latest changes..."
+            git pull origin $(git rev-parse --abbrev-ref HEAD)
+
+            echo "🔄 Restarting Airflow containers..."
+            docker-compose down
+            docker-compose up -d
