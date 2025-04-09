@@ -6,7 +6,7 @@
     - Django API 서버 구축
 ---
 > ### 프로젝트 보고서
-- [프로젝트 1 보고서](https://www.notion.so/1b6db7c679148072a708e985fbfb2294?p=1b6db7c679148143b605ddc34c7bc817&pm=c)
+- [프로젝트 1 보고서](https://flax-entree-f78.notion.site/1b6db7c679148072a708e985fbfb2294?p=1b6db7c679148143b605ddc34c7bc817&pm=c)
 
 > ### 목표
 -  당근마켓에서 지역별 인기 카테고리 매물 분석 시각화
