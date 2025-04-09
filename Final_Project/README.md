@@ -7,7 +7,7 @@
 
 ---
 > ## 0.프로젝트 보고서
-- [최종 프로젝트 보고서](https://www.notion.so/1b6db7c679148072a708e985fbfb2294?p=1b6db7c6791481f0bd5cd9f4dfa98aa4&pm=c)
+- [최종 프로젝트 보고서](https://flax-entree-f78.notion.site/1b6db7c679148072a708e985fbfb2294?p=1b6db7c6791481f0bd5cd9f4dfa98aa4&pm=c)
 
 > ## 1. 기술적 목표
 
