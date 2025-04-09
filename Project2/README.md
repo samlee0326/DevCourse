@@ -4,7 +4,7 @@
 ---
 > ## 0. 보고서
 
-- [프로젝트 2 보고서](https://www.notion.so/1b6db7c679148072a708e985fbfb2294?p=1b6db7c67914814a944edf18fb8cea28&pm=c)
+- [프로젝트 2 보고서](https://flax-entree-f78.notion.site/1b6db7c679148072a708e985fbfb2294?p=1b6db7c67914814a944edf18fb8cea28&pm=c)
 
 > ## 1. 프로젝트 개요
 - 영화 산업은 문화와 경제에 큰 영향을 미치는 분야로, 관객의 선호도와 트렌드 분석이 중요함. 
